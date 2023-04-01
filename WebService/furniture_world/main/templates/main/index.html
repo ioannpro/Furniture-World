@@ -1,0 +1,53 @@
+{% extends 'structur.html' %}
+
+{% load static %}
+
+
+{% block content %}
+<!-- Intro -->
+
+<div class="intro">
+	<div class="container">
+		<div class="intro__inner">
+			
+		</div>
+	</div>
+</div>
+
+<!-- Catalog -->
+
+<div class="catalog">
+	<div class="container">
+		<div class="catalog__menu">
+			<nav class="menu">
+				<ul class="menu__ul">
+					<li class="menu__li">
+						<a class="menu__a menu__a__active" href="#">Кровати</a>
+					</li>
+					<li class="menu__li">
+						<a class="menu__a" href="#">Диваны</a>
+					</li>
+					<li class="menu__li">
+						<a class="menu__a" href="#">Кресла</a>
+						<ul class="menu__ul__sub">
+							<li class="menu__li">
+								<a class="menu__a" href="#">Кровати</a>
+							</li>
+							<li class="menu__li">
+								<a class="menu__a" href="#">Диваны</a>
+							</li>
+							<li class="menu__li">
+								<a class="menu__a" href="#">Кресла</a>
+							</li>
+						</ul>
+					</li>
+					<li class="menu__li">
+						<a class="menu__a" href="#">Диваны</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+
+{% endblock %}
