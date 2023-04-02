@@ -8,7 +8,20 @@
 
 <div class="product">
 	<div class="product__img__inner">
-		<img class="product__img__item" src="https://delavega.ua/image/catalog/catalog/Sofas/sofa%20A111/1938_782-a111-new-1.jpg">
+	{% for m in img %}
+		<img class="product__img__item" src="{{ m }}">
+	{% endfor %}
+		<a class="product__img__arrow" onclick="changeSlide(-1)">&#10094</a>
+		<a class="product__img__arrow product__img__arrow_" onclick="changeSlide(1)">&#10095</a>
+		<div class="product__img__dot__inner">
+		{% for i in l_img %}
+			{% if i == 0 %}
+				<span class="product__img__dot__item product__img__dot__item__active" onclick="changeSlideDot({{ i }})"></span>
+			{% else %}
+				<span class="product__img__dot__item" onclick="changeSlideDot({{ i }})"></span>
+			{% endif %}
+		{% endfor %}
+		</div>
 	</div>
 	<div class="product__details">
 		<h1 class="product__name">{{ name }}</h1>
