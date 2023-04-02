@@ -4,6 +4,7 @@
 
 
 {% block content %}
+
 <!-- Intro -->
 
 <div class="intro">
@@ -21,6 +22,13 @@
 		<div class="catalog__menu">
 			<nav class="menu">
 				<ul class="menu__ul">
+                    {% for m in menu %}
+                    <li class="menu__li">
+						<a class="menu__a" href="#">{{ m.name }}</a>
+					</li>
+                    {% endfor %}
+                    
+
 					<li class="menu__li">
 						<a class="menu__a menu__a__active" href="#">Кровати</a>
 					</li>
