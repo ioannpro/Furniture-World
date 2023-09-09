@@ -1,0 +1,32 @@
+$margin_step: 5px;
+
+// colors
+$main_black: #303030;
+
+
+.dropdown {
+    width: max-content;
+    height: auto;
+    cursor: pointer;
+
+    &__content {
+        position: absolute;
+        overflow: hidden;
+        z-index: 1;
+
+        
+
+        background-color: #fff;
+    }
+
+
+    &__icon {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: $margin_step;
+        width: 1.2rem;
+        height: 1.5rem;
+        stroke: $main_black;
+    }
+}
+

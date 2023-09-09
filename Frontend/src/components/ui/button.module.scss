@@ -1,0 +1,32 @@
+$margin_step: 5px;
+
+.btn {
+    display: inline-block;
+	vertical-align: top;
+    margin-top: $margin_step*2;
+	padding: 0.75rem 7.813rem;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+
+    border: 1.5px #000 solid;
+
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+
+    transition: all .4s linear;
+
+    &:hover {
+        background-color: #000;
+        color: #fff;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+	.btn {
+        padding: 0.75rem 8.929rem;
+    }
+}
