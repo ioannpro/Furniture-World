@@ -8,6 +8,10 @@ $main_black: #303030;
     width: max-content;
     height: auto;
     cursor: pointer;
+    
+    &__title {
+        padding-left: 1.429rem;
+    }
 
     &__content {
         position: absolute;

@@ -26,7 +26,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className={style.footer__right}>
-                    © 2023 All rights reserved. Design & Create by <Link className = {style.footer__author} href={'/'}>Prokurat I.</Link>, <Link className = {style.footer__author} href={'/'}>Dvoitsov E.</Link>
+                    © 2023 All rights reserved. Design & Create by <Link className = {style.footer__author} href={'https://github.com/ioannpro'}>Prokurat I.</Link>, <Link className = {style.footer__author} href={'https://github.com/Stop2234'}>Dvoitsov E.</Link>
                 </div>
             </div>
         </div>

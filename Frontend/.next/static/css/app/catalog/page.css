@@ -1,0 +1,192 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[5].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[5].oneOf[9].use[5]!./src/components/ui/button.module.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.button_btn__6RzFY {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 10px;
+  padding: 0.75rem 7.813rem;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  border: 1.5px #000 solid;
+  font-size: 1rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  transition: all 0.4s linear;
+}
+.button_btn__6RzFY:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+@media only screen and (max-width: 1000px) {
+  .button_btn__6RzFY {
+    padding: 0.75rem 8.929rem;
+  }
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[5].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[5].oneOf[9].use[5]!./src/components/item-card/itemcard.module.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.itemcard_item__WVqhY {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 280px;
+  min-height: 280px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.itemcard_item__img____JGp {
+  position: relative;
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  overflow: hidden;
+}
+.itemcard_item__category__kV2va {
+  margin-top: 5px;
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: rgba(48, 48, 48, 0.8);
+}
+.itemcard_item__title__j_SUo {
+  margin-top: 5px;
+  font-weight: 700;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+.itemcard_item__price__W62w3 {
+  margin-top: 5px;
+  font-size: 0.938rem;
+  font-weight: 500;
+}
+.itemcard_item__btn__u_dMM {
+  margin-top: 5px;
+}
+
+@media only screen and (max-width: 930px) {
+  .itemcard_item__WVqhY {
+    margin-left: 0;
+  }
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[5].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[5].oneOf[9].use[5]!./src/components/ui/cell.module.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.cell_cell__IhD_i {
+  margin: 10px 0;
+  border-bottom: #303030 1px solid;
+}
+.cell_cell__title__OZvMH {
+  margin: 10px 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #303030;
+}
+.cell_cell__icon__L7_kH {
+  width: 1.375rem;
+  height: 1.375rem;
+  stroke: #303030;
+  object-fit: cover;
+  overflow: hidden;
+}
+.cell_cell__children__dVrTw {
+  margin-bottom: 5px;
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[5].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[5].oneOf[9].use[5]!./src/components/menu/menu.module.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.menu_menu__S6D2g {
+  margin-top: 20px;
+  min-width: 280px;
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[5].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[5].oneOf[9].use[5]!./src/components/ui/sortMenu.module.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.sortMenu_dropdown__n4_Rq {
+  width: max-content;
+  height: auto;
+  cursor: pointer;
+}
+.sortMenu_dropdown__title__8Kozj {
+  padding-left: 1.429rem;
+}
+.sortMenu_dropdown__content__8LXOv {
+  position: absolute;
+  overflow: hidden;
+  z-index: 1;
+  background-color: #fff;
+}
+.sortMenu_dropdown__icon__Mvfyr {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5px;
+  width: 1.2rem;
+  height: 1.5rem;
+  stroke: #303030;
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[5].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[5].oneOf[9].use[5]!./src/components/components.module.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.components_container__CUfaI {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .components_container__CUfaI {
+    max-width: 1000px;
+  }
+}
+@media only screen and (max-width: 930px) {
+  .components_container__CUfaI {
+    max-width: 660px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .components_container__CUfaI {
+    max-width: 90%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .components_container__CUfaI {
+    max-width: 280px;
+  }
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[5].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[5].oneOf[9].use[5]!./src/components/screens/catalog/catalog.module.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.catalog_catalog__OFg0p {
+  display: flex;
+}
+.catalog_catalog__header__9Ut9g {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.catalog_catalog__inner__54v6v {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .catalog_catalog__inner__54v6v {
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 930px) {
+  .catalog_catalog__OFg0p {
+    flex-wrap: wrap;
+  }
+  .catalog_catalog__inner__54v6v {
+    margin-left: 0;
+    justify-content: space-between;
+  }
+}

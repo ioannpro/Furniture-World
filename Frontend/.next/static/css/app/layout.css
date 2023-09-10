@@ -201,10 +201,10 @@ h1, h2, h3, h4, h5, h6, a, p {
 }
 @media only screen and (max-width: 768px) {
   .components_container__CUfaI {
-    max-width: 610px;
+    max-width: 90%;
   }
 }
-@media only screen and (max-width: 593px) {
+@media only screen and (max-width: 450px) {
   .components_container__CUfaI {
     max-width: 280px;
   }
@@ -215,6 +215,52 @@ h1, h2, h3, h4, h5, h6, a, p {
 .header_header__w2BOs {
   width: 100%;
   height: 70px;
+}
+.header_header__inner__SH3p_ {
+  display: flex;
+  align-items: center;
+}
+.header_header__icon__LB__A {
+  width: 4rem;
+  height: 4rem;
+  color: #232323;
+}
+.header_header__nav__FNyrR {
+  margin-left: 20px;
+}
+.header_header__nav__link__KtvV2 {
+  margin-left: 40px;
+  padding-bottom: 4px;
+  position: relative;
+  color: #232323;
+  text-decoration: none;
+  transition: all 0.2s linear;
+}
+.header_header__nav__link__KtvV2:first-child {
+  margin-left: 0;
+}
+.header_header__nav__link__KtvV2:hover {
+  color: rgba(35, 35, 35, 0.6);
+}
+.header_header__nav__link__KtvV2:hover::before {
+  width: 100%;
+}
+.header_header__nav__link__KtvV2::before {
+  content: "";
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 0%;
+  height: 1.5px;
+  background-color: rgba(35, 35, 35, 0.6);
+  transition: all 0.2s linear;
+}
+
+/* Media */
+@media only screen and (max-width: 768px) {
+  .header_header__nav__FNyrR {
+    display: none;
+  }
 }
 /*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[5].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[5].oneOf[9].use[5]!./src/components/footer/footer.module.scss ***!
